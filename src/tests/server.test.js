@@ -10,5 +10,5 @@ describe("/GET findlAll()", () => {
 });
 
 describe("/GET findOne()", () => {
-  it("Find an user based on user id and return 200 statusCode", async () => {});
+  it("Find an user based on id and return 200 statusCode", async () => {});
 });
