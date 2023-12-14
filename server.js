@@ -5,6 +5,16 @@ const app = express();
 
 app.use(express.json());
 
+app.post("/", async (req, res) => {
+  const { name } = req.body;
+  const createdUser = await prisma.user.create({
+    data: {
+      name,
+    },
+  });
+  res.status(200).send(createdUser);
+});
+
 app.get("/", async (req, res) => {
   const findAll = await prisma.user.findMany({});
   res.status(200).send(findAll);
