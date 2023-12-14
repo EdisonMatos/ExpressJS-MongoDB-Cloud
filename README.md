@@ -1,4 +1,4 @@
-# 🚀 MongoDB CRUD API
+# 🚀 ExpressJS API com MongoDB e Testes Unitários
 
 Este repositório contém uma API CRUD simples desenvolvida com Node.js, Express e MongoDB. O objetivo desta API é realizar operações básicas de CRUD (Create, Read, Update, Delete) em uma entidade de usuário.
 
