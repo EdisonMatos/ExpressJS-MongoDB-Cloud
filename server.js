@@ -6,10 +6,28 @@ const app = express();
 app.use(express.json());
 
 app.get("/", async (req, res) => {
-  console.log("test");
-  const findUser = await prisma.user.findMany({});
-  console.log(findUser);
-  res.status(200).send(findUser);
+  const findAll = await prisma.user.findMany({});
+  res.status(200).send(findAll);
+});
+
+app.get("/:id", async (req, res) => {
+  const { id } = req.params;
+  const findOne = await prisma.user.findFirst({
+    where: {
+      id,
+    },
+  });
+  res.status(200).send(findOne);
+});
+
+app.delete("/:id", async (req, res) => {
+  const { id } = req.params;
+  const deletedUser = await prisma.user.delete({
+    where: {
+      id,
+    },
+  });
+  res.status(200).send(deletedUser);
 });
 
 app.listen(3000, () => {
