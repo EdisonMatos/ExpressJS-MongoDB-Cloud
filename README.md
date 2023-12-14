@@ -1,6 +1,6 @@
-# 🚀 ExpressJS MongoDB Cloud
+# 🚀 ExpressJS server com MongoDB e testes unitários
 
-Este repositório contém uma aplicação simples desenvolvida com ExpressJS e MongoDB Cloud. O objetivo é demonstrar operações básicas de CRUD (Create, Read, Update, Delete) em uma base de dados MongoDB hospedada na nuvem.
+Este repositório contém uma aplicação simples desenvolvida com ExpressJS e MongoDB. O objetivo é demonstrar operações básicas de CRUD (Create, Read, Update, Delete) em uma base de dados MongoDB hospedada na nuvem.
 
 ## 🛠️ Tecnologias Utilizadas
 
