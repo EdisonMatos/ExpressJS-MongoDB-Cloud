@@ -1,5 +1,5 @@
 const express = require("express");
-const { prisma } = require("./prismaClient.js");
+const { prisma } = require("./db/prismaClient.js");
 
 const app = express();
 
@@ -56,6 +56,4 @@ app.delete("/:id", async (req, res) => {
   res.status(200).send(deletedUser);
 });
 
-app.listen(3000, () => {
-  console.log("Server runing. http://localhost:3000");
-});
+module.exports = app;
