@@ -102,14 +102,29 @@ A aplicação possui os seguintes endpoints para manipulação de usuários:
 - **Método:** `DELETE`
 - **Endpoint:** `/:id`
 
-## 🧑‍💻 Autor
+## 🧑‍💻 Autores
 
 Este projeto foi desenvolvido por Edison Matos.
 
-![Edison Matos](inserir-link-imagem-edison-matos)
+![Edison Matos](https://avatars.githubusercontent.com/u/17342047?s=200)
 
-Edison Matos é um entusiasta da tecnologia, desenvolvedor de software e entusiasta de bancos de dados NoSQL.
+Edison Matos é um entusiasta da tecnologia, desenvolvedor backend de software e apaixonado por criar soluções inovadoras.<br>
+Saiba mais sobre no [GitHub](https://github.com/EdisonMatos) para descobrir mais projetos e colaborações.
+
+<br>
+
+## 🤝 Contribuição
+
+Se deseja contribuir para o desenvolvimento deste projeto, siga os passos abaixo:
+
+1. Faça um fork do projeto.
+2. Crie uma branch para suas alterações: `git checkout -b feature/nome-da-sua-feature`.
+3. Faça as alterações desejadas e commit: `git commit -m 'Adiciona nova feature'`.
+4. Push para a branch: `git push origin feature/nome-da-sua-feature`.
+5. Abra um pull request para revisão.
+
+<br>
 
 ## 📄 Licença
 
-Este projeto é licenciado sob a Licença ISC.
+Este projeto é licenciado sob a Licença MIT.
