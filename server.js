@@ -30,6 +30,22 @@ app.get("/:id", async (req, res) => {
   res.status(200).send(findOne);
 });
 
+app.patch("/:id", async (req, res) => {
+  const { id } = req.params;
+  const { name } = req.body;
+
+  const updatedUser = await prisma.user.update({
+    data: {
+      name,
+    },
+    where: {
+      id,
+    },
+  });
+
+  res.status(200).send(updatedUser);
+});
+
 app.delete("/:id", async (req, res) => {
   const { id } = req.params;
   const deletedUser = await prisma.user.delete({
